@@ -19,9 +19,9 @@ menu:
   Contact:
     url: /contact
     icon: fas fa-comments
-  Friends:
-    url: /friends
-    icon: fas fa-address-book
+#  Friends:
+#    url: /friends
+#    icon: fas fa-address-book
   # 二級菜單寫法如下
   #Medias:
   #  icon: fas fa-list
@@ -66,8 +66,8 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title: 你好，我是 matt 軟體工程師
-  text: 我不是願景家，我是工程師。我對那些四處遊蕩、望著雲端的人沒有任何意見。但是我是看著地面的人，我想修補就在我面前的坑洞，以免跌進去 - Linus Torvalds
+  title: matt 技術部落
+  text: 這裡記錄了我所見所聞所學的心得
 
 # Whether to display the musics.
 # 是否在首頁顯示音樂.
@@ -115,8 +115,8 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置網站favicon和網站LOGO
-favicon: /favicon.png
-logo: /medias/logo.png
+favicon: /medias/matt.png
+logo: /medias/matt.png
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
@@ -187,7 +187,7 @@ mathjax:
 # 文章字數統計、閱讀時長、總字數統計等
 # 文章信息--若要開啟文章字數統計，需要安裝 hexo-wordcount 插件，安裝命令: `npm i --save hexo-wordcount`
 postInfo:
-  date: true # 發布日期
+  date: false # 發布日期
   update: false # 更新日期
   wordCount: false # 文章字數統計
   totalCount: false # 站點總文章字數
@@ -265,7 +265,7 @@ myGallery:
 
 # Whether to display post-calender in the `archive` page
 # 設置在歸檔頁面中是否顯示'文章日歷'控件
-postCalendar: true
+postCalendar: false
 
 # the Gitalk config，default disabled
 # Gitalk 評論模塊的配置，默認為不激活
@@ -353,7 +353,7 @@ baiduAnalytics:
   id:
 
 # 百度搜索資源平臺提交鏈接
-baiduPush: true
+baiduPush: false
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
 # If the specific version is not specified below, you can use the latest version.

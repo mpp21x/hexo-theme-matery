@@ -29,7 +29,8 @@
     .post-container {
         width: 90%;
         margin: 0 auto;
-        max-width: 1250px;
+        max-width: 1800px;
+        /* TODO:matt 修改整個文章寬度 */
     }
 }
 
@@ -250,7 +251,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #000000 0%, #5a5a5a 100%);
 }
 
 .text-color {
@@ -740,7 +741,7 @@ header .go-back i {
 }
 
 .index-card .card .card-content {
-    padding: 20px 40px;
+    /* TODO(matt)  padding: 20px 40px;*/
 }
 
 @media only screen and (min-width: 1418px) {
@@ -752,14 +753,14 @@ header .go-back i {
 
 @media only screen and (max-width: 601px) {
     .index-card .card .card-content {
-        padding: 10px 10px;
+        /* TODO(matt)  padding: 10px 10px;*/
     }
 }
 
 /*中等屏幕下(平板类)的样式*/
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     .index-card .card .card-content {
-        padding: 20px 20px;
+        /* TODO(matt) padding: 20px 20px;*/
     }
 }
 
@@ -916,7 +917,7 @@ article .tag-image img {
 }
 
 article .card .card-content {
-    padding: 15px 15px 12px 18px;
+    /* TODO(matt)  padding: 15px 15px 12px 18px;*/
 }
 
 article .article-content .summary {
@@ -1124,7 +1125,7 @@ article .article-tags .chip {
 }
 
 #artDetail .article-card-content {
-    padding: 0 15px 20px 18px;
+    /* TODO(matt) padding: 0 15px 20px 18px;*/
 }
 
 @media only screen and (max-width: 601px) {
@@ -1136,7 +1137,7 @@ article .article-tags .chip {
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     #artDetail .article-card-content {
-        padding: 0 30px 20px 32px;
+        /* TODO(matt)  padding: 0 30px 20px 32px;*/
     }
 
     #artDetail .article-info {
@@ -1147,7 +1148,7 @@ article .article-tags .chip {
 
 @media only screen and (min-width: 993px) {
     #artDetail .article-card-content {
-        padding: 0 50px 20px 50px;
+        /* TODO(matt)  padding: 0 50px 20px 50px;*/
     }
 }
 
