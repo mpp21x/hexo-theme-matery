@@ -197,7 +197,7 @@ postInfo:
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活點擊頁面的'愛心'效果，默認激活.
 clicklove:
-  enable: true
+  enable: false
 
 # profile in about page, including avatars, career, and personal introductions.
 # 在”關於”頁面中配置個人信息，包括頭像、職業和個人介紹.
