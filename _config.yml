@@ -13,12 +13,12 @@ menu:
   Archives:
     url: /archives
     icon: fas fa-archive
-  About:
-    url: /about
-    icon: fas fa-user-circle
-  Contact:
-    url: /contact
-    icon: fas fa-comments
+#  About:
+#    url: /about
+#    icon: fas fa-user-circle
+#  Contact:
+#    url: /contact
+#    icon: fas fa-comments
 #  Friends:
 #    url: /friends
 #    icon: fas fa-address-book
@@ -67,7 +67,7 @@ dream:
   enable: true
   showTitle: true
   title: matt 技術部落
-  text: 這裡記錄了我所見所聞所學的心得
+  text: 這裡記錄了我所學的心得
 
 # Whether to display the musics.
 # 是否在首頁顯示音樂.
@@ -115,8 +115,8 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置網站favicon和網站LOGO
-favicon: /medias/matt.png
-logo: /medias/matt.png
+favicon: /medias/m.png
+logo: /medias/m.png
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
@@ -202,7 +202,7 @@ clicklove:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”關於”頁面中配置個人信息，包括頭像、職業和個人介紹.
 profile:
-  avatar: /medias/avatar.jpg
+  avatar: /medias/m.png
   career: Software Engineer
   introduction:
 
@@ -396,30 +396,31 @@ libs:
 # The post featured images that needs to be displayed when there is no image.
 # 無文章特色圖片時需要顯示的文章特色圖片.
 featureImages:
-  - /medias/featureimages/0.jpg
-  - /medias/featureimages/1.jpg
-  - /medias/featureimages/2.jpg
-  - /medias/featureimages/3.jpg
-  - /medias/featureimages/4.jpg
-  - /medias/featureimages/5.jpg
-  - /medias/featureimages/6.jpg
-  - /medias/featureimages/7.jpg
-  - /medias/featureimages/8.jpg
-  - /medias/featureimages/9.jpg
-  - /medias/featureimages/10.jpg
-  - /medias/featureimages/11.jpg
-  - /medias/featureimages/12.jpg
-  - /medias/featureimages/13.jpg
-  - /medias/featureimages/14.jpg
-  - /medias/featureimages/15.jpg
-  - /medias/featureimages/16.jpg
-  - /medias/featureimages/17.jpg
-  - /medias/featureimages/18.jpg
-  - /medias/featureimages/19.jpg
-  - /medias/featureimages/20.jpg
-  - /medias/featureimages/21.jpg
-  - /medias/featureimages/22.jpg
-  - /medias/featureimages/23.jpg
+  - /medias/banner/0.jpg
+#  - /medias/featureimages/0.jpg
+#  - /medias/featureimages/1.jpg
+#  - /medias/featureimages/2.jpg
+#  - /medias/featureimages/3.jpg
+#  - /medias/featureimages/4.jpg
+#  - /medias/featureimages/5.jpg
+#  - /medias/featureimages/6.jpg
+#  - /medias/featureimages/7.jpg
+#  - /medias/featureimages/8.jpg
+#  - /medias/featureimages/9.jpg
+#  - /medias/featureimages/10.jpg
+#  - /medias/featureimages/11.jpg
+#  - /medias/featureimages/12.jpg
+#  - /medias/featureimages/13.jpg
+#  - /medias/featureimages/14.jpg
+#  - /medias/featureimages/15.jpg
+#  - /medias/featureimages/16.jpg
+#  - /medias/featureimages/17.jpg
+#  - /medias/featureimages/18.jpg
+#  - /medias/featureimages/19.jpg
+#  - /medias/featureimages/20.jpg
+#  - /medias/featureimages/21.jpg
+#  - /medias/featureimages/22.jpg
+#  - /medias/featureimages/23.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默認轉載規則
@@ -441,7 +442,7 @@ featureImages:
 # noreprint（不允許轉載 not allowed to reprint）
 # pay（付費轉載 pay for reprinting）
 reprint:
-  enable: true # whether enable reprint section 是否啟用“轉載規則限定模塊”
+  enable: false # whether enable reprint section 是否啟用“轉載規則限定模塊”
   default: cc_by
 
 # DaoVoice online contact
@@ -478,7 +479,7 @@ ribbon_dynamic:
 # sharejs文章分享模塊.
 # 支持順序，可選項目為twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
 sharejs:
-  enable: true
+  enable: false
   sites: twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin
 
 # addthis文章分享模塊.
@@ -489,7 +490,7 @@ addthis:
 # 打字效果副標題.
 # 如果有符號 ‘ ，請在 ’ 前面加上 \
 subtitle:
-  enable: true
+  enable: false
   loop: true # 是否循環
   showCursor: true # 是否顯示光標
   startDelay: 300 # 開始延遲
