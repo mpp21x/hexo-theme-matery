@@ -1,5 +1,6 @@
 <%
 var featureimg = '/medias/bg.jpg';
+var defaultFeatureimg = featureimg;
 if (page.img) {
     featureimg = page.img;
 } else {
@@ -22,7 +23,8 @@ if (page.img) {
 }
 %>
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('<%- featureimg %>')">
+<!-- <div class="bg-cover pd-header post-cover" style="background-image: url('<%- featureimg %>')"> -->
+<div class="bg-cover pd-header post-cover" style="background-image: url('<%- defaultFeatureimg %>')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
