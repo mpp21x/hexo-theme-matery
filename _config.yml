@@ -187,12 +187,12 @@ mathjax:
 # 文章字數統計、閱讀時長、總字數統計等
 # 文章信息--若要開啟文章字數統計，需要安裝 hexo-wordcount 插件，安裝命令: `npm i --save hexo-wordcount`
 postInfo:
-  date: false # 發布日期
-  update: false # 更新日期
-  wordCount: false # 文章字數統計
-  totalCount: false # 站點總文章字數
-  min2read: false # 文章閱讀時長
-  readCount: false # 文章閱讀次數
+  date: true # 發布日期
+  update: true # 更新日期
+  wordCount: true # 文章字數統計
+  totalCount: true # 站點總文章字數
+  min2read: true # 文章閱讀時長
+  readCount: true # 文章閱讀次數
 
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活點擊頁面的'愛心'效果，默認激活.
