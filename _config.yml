@@ -191,7 +191,7 @@ postInfo:
   update: true # 更新日期
   wordCount: true # 文章字數統計
   totalCount: true # 站點總文章字數
-  min2read: true # 文章閱讀時長
+  min2read: false # 文章閱讀時長
   readCount: false # 文章閱讀次數
 
 # Whether to activate the 'love' effect of clicking on the page.
