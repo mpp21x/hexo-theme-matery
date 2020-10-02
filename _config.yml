@@ -42,7 +42,7 @@ menu:
 # Website start time.
 # 站點運行開始時間.
 time:
-  enable: false
+  enable: true
   year: 2019 # 年份
   month: 06 # 月份
   date: 28 # 日期
@@ -66,7 +66,7 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title: matt 技術部落
+  title: matt 部落格
   text: 這裡記錄了我所學的心得
 
 # Whether to display the musics.

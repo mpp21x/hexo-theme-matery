@@ -69,7 +69,7 @@
                                     return featureimg;
                                 }
                                 var len = featureImages.length;
-                                var num = Math.abs(hashCode(post.title) % len);
+
                                 var num = Math.abs(hashCode(post.title) % len);
                                 if (theme.jsDelivr.url !== '') {
                                     featureimg = featureImages[num] ;
